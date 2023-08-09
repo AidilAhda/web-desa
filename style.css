@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Viga&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+.navbar .navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+}
+/* carousel */
+.site-index img {
+  height: 525px;
+}
+.site-index .carousel-inner h3 {
+  font-weight: bold;
+  font-family: arial;
+
+  font-size: 32px;
+}
+.welcome-text {
+  font-size: 35px;
+  font-family: poppins;
+}
+.welcome-text span {
+  color: blue;
+  font-weight: bold;
+}
+.visi {
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 23px;
+}
+.lokasi h1 {
+  font-family: poppins;
+  font-size: 35px;
+  color: blue;
+  font-weight: bold;
+}
+@media (max-width: 370px) {
+  .lokasi {
+    height: 290px;
+  }
+  .lokasi iframe {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 21px;
+  }
+  .kartu {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 770px) {
+  .lokasi {
+    height: 290px;
+  }
+  .lokasi iframe {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 21px;
+  }
+}
